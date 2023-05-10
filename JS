@@ -1,0 +1,44 @@
+function triangulo () {
+    let base = prompt("Ingresa la base del triangulo");
+    let altura = prompt("Ingresa la altura del triangulo");
+    let area= (base* .5)*altura;
+    let perimetro=altura*3
+    alert ("El area es de :"+ area);
+    alert ("El perimetro es de :"+ perimetro);
+
+}
+
+function cuadrado () {
+    let lado;
+    lado= parseInt (prompt("Ingrese medida de  lado del cuadrado"));
+    let area;
+    area = lado * lado;
+    alert ("El area del cuadrado es:"+ area);
+
+}
+
+function rectangulo () {
+    let base = parseInt(prompt("Ingresa la base del rectangulo"));
+    let altura = parseInt(prompt("Ingresa la altura del rectangulo"));
+    let area;
+    area= base * altura;
+    alert ("El area del rectangulo es:"+ area);
+
+}
+
+function rectangulo () {
+
+    let base= parseFloat (prompt('base:'));
+   let altura= parseFloat (prompt('altura:'));
+perimetro= 2 *base +2 *altura;
+alert ("El perimetro es:" + cm);
+}
+
+
+function circulo () {
+
+    let circunferencia = parseFloat (('circunferencia:'));
+    let radio = circunferencia /(2 *Math.PI);
+    alert ("el radio es:" + cm );
+}
+
